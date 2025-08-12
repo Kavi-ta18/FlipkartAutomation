@@ -84,6 +84,7 @@
     <scope>provided</scope>
 </dependency>
   </dependencies>
+	<build>
 <plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-compiler-plugin</artifactId>
@@ -99,4 +100,5 @@
         </compilerArgs>
     </configuration>
 </plugin>
+	</build>
 </project>
